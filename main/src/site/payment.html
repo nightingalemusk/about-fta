@@ -3,20 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>送金方法 - Fortune telling art</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>支払い方法 - Fortune telling art</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        /* 全体のスタイル設定 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3e6ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9a73ef;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            margin: 0;
+            font-size: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #7d5bbe;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav li {
+                display: block;
+                margin: 0;
+                text-align: center;
+                padding: 0.5em 0;
+            }
+        }
+
+        .hero {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        a:link, a:visited {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            text-decoration: underline;
+        }
+
+        /* レスポンシブデザイン */
+        @media (max-width: 768px) {
+            main {
+                padding: 1em;
+            }
+
+            article {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-<!-- ヘッダー、ナビゲーション、フッターはindex.htmlと同じ -->
-<main>
-    <section>
-        <h2>送金方法</h2>
-        <article>
-            <!-- ここに送金方法の内容を書きます -->
-        </article>
-    </section>
-</main>
-<!-- フッターはindex.htmlと同じ -->
-<script src="scripts.js"></script>
+    <header>
+        <h1>Fortune telling art</h1>
+    </header>
+    <main>
+        <section>
+            <h2>支払い方法</h2>
+            <article>
+                <p>お悩み相談1回につき5ドルの支払いが必要です。以下の支払い方法をご利用いただけます。</p>
+                <ul>
+                    <li>各種ギフトカード（Amazonギフトカード、iTunesギフトカード、Google Playギフトカードなど）</li>
+                    <li>仮想通貨（Bitcoin、Ethereumなど）</li>
+                    <li>Discord Nitro Classic</li>
+                    <!-- 追加の支払い方法をここに列挙 -->
+                </ul>
+                <p>支払いが完了したら、お問い合わせフォームからご希望の相談内容と支払い方法をお知らせください。迅速に対応させていただきます。</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Fortune telling art. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="terms.html">利用規約</a></li>
+                <li><a href="privacy.html">プライバシーポリシー</a></li>
+              <li><a href="faq.html">FAQ＆お客様の声</a></li>
+                <li><a href="payment.html">送金方法</a></li>    
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
