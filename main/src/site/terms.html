@@ -4,19 +4,267 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>利用規約 - Fortune telling art</title>
-    <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        /* スタイル設定 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3e6ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9a73ef;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            margin: 0;
+            font-size: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #7d5bbe;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav li {
+                display: block;
+                margin: 0;
+                text-align: center;
+                padding: 0.5em 0;
+            }
+        }
+
+        .hero {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        a:link, a:visited {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            color: #574291;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #9a73ef;
+            color: white;
+            padding: 1em 2em;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #8a63d2;
+        }
+
+        /* 利用規約ページ特有のスタイル */
+        article {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        article h3 {
+            color: #333;
+            margin-top: 1em;
+        }
+
+        article ul {
+            list-style: disc inside;
+        }
+
+        article li {
+            margin-left: 1em;
+        }
+
+        /* レスポンシブデザイン */
+        @media (max-width: 768px) {
+            main {
+                padding: 1em;
+            }
+
+            article {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-<!-- ヘッダー、ナビゲーション、フッターはindex.htmlと同じ -->
-<main>
-    <section>
-        <h2>利用規約</h2>
-        <article>
-            <!-- ここに利用規約の内容を書きます -->
-        </article>
-    </section>
-</main>
-<!-- フッターはindex.htmlと同じ -->
-<script src="scripts.js"></script>
+    <header>
+        <h1>Fortune telling art</h1>
+    </header>
+    <main>
+        <section>
+            <h2>利用規約</h2>
+            <article>
+                <h3>第1条（適用と規約用語の定義）</h3>
+                <p>本規約は、ユーザーとの本サービスの利用に関わる一切の関係に適用されるものとします。以下のように規約用語を定義します。</p>
+                <ul>
+                    <li>Fortune telling art → 「本サービス」</li>
+                    <li>利用者の皆さま → 「ユーザー」</li>
+                    <li>Fortune telling artの開発者 → 「開発メンバー」</li>
+                </ul>
+
+                <h3>第2条（成りすまし,捏造）</h3>
+                <p>個人情報の捏造が見られた場合、アクセス禁止措置を執行します。</p>
+
+                <h3>第3条（禁止事項）</h3>
+                <p>ユーザーは本サービスの利用にあたり以下の内容を含む行為をしてはなりません。</p>
+                <ul>
+                    <li>法令または公序良俗に違反</li>
+                    <li>犯罪行為に関連</li>
+                    <li>誰かしらのサーバーまたはネットワーク機能の破壊や妨害</li>
+                    <li>荒らし行為</li>
+                    <li>他のユーザーに関する個人情報等の収集</li>
+                    <li>不正アクセスまたは試み</li>
+                    <li>他のユーザーへの成りすまし</li>
+                    <li>反社会的勢力に対し直接または間接な利益の供与</li>
+                    <li>誰かしらの権利または利益の侵害</li>
+                    <li>暴力的、性的、自殺、薬物乱用等、人に不快感を与える投稿</li>
+                    <li>営利目的</li>
+                    <li>わいせつな行為目的</li>
+                    <li>他のユーザーに対する嫌がらせや誹謗中傷目的</li>
+                    <li>誰かしらに不利益、損害または不快感を与えることが目的</li>
+                    <li>宗教団体への勧誘目的</li>
+                    <li>政治的勧誘目的</li>
+                    <li>その他、開発メンバーが不適切と判断する目的</li>
+                </ul>
+
+                <h3>第4条（本サービス提供の停止等）</h3>
+                <p>開発メンバーは、何らかの問題があった場合に、いつでも本サービスを縮小、中断、停止できるものとします。開発メンバーは、本サービスの提供の停止または中断により、ユーザーまたは第三者が被ったいかなる不利益または損害についても、一切の責任を負わないものとします。</p>
+
+                <h3>第5条（著作権）</h3>
+                <p>本サービスでのお悩み相談やその結果などは複製してはいけません。特別許可は開発メンバーに取ってください。</p>
+
+                <h3>第6条（利用制限および登録抹消）</h3>
+                <p>開発メンバーは、ユーザーが以下のいずれかに該当する場合には、事前の通知なく、アクセス禁止措置を執行できるものとします。</p>
+                <ul>
+                    <li>本規約のいずれかの条項に違反した場合</li>
+                    <li>開発メンバーが本サービスを利用してはならないと判断した場合</li>
+                </ul>
+                <p>開発メンバーは、本条に基づき開発メンバーが行った行為によりユーザーに生じた損害について、一切の責任を負いません。</p>
+
+                <!-- 以下、第7条以降も同様に記載 -->
+
+                <h3>第7条（保証の否認および免責事項）</h3>
+                <p>開発メンバーは、本サービスに事実上または法律上の以下の瑕疵がないことを明示的にも黙示的にも保証していません。</p>
+                <ul>
+                    <li>安全性、信頼性、正確性</li>
+                    <li>完全性、有効性</li>
+                    <li>特定の目的への適合性</li>
+                    <li>セキュリティなどに関する欠陥、エラーやバグ</li>
+                    <li>権利侵害</li>
+                </ul>
+                <p>開発メンバーは、本サービスに起因してユーザーに生じたあらゆる損害について一切の責任を負いません。</p>
+
+                <h3>第8条（利用規約の変更）</h3>
+                <p>開発メンバーは、必要な場合に、ユーザーに通知することなくいつでも本規約を変更できるものとします。変更後に本サービスの利用を開始・再開した場合には、該当ユーザーは変更後の規約に同意したものとみなします。</p>
+
+                <h3>第9条（個人情報の取扱い）</h3>
+                <p>本サービスは、本サービスの利用によって個人情報と見なされるものを一切取得しません。取得している情報は以下のみです。</p>
+                <ul>
+                    <li>IPアドレス</li>
+                    <li>一日あたりのアクセス者数</li>
+                </ul>
+                <p>ただし、ヨーロッパ連合一般データ保護規則による対応はしていません。また、本規約に違反したユーザーに対して取得する情報はこれに限りません。</p>
+
+                <h3>第10条（プロバイダ有限責任法）</h3>
+                <p>本サービスは、日本法にて定められているプロバイダ有限責任法に順じ、開示義務がある場合には情報を開示し、また開発メンバーはこれに関して一切の責任を負わないものとします。</p>
+
+                <h3>第11条 (暗号化)</h3>
+                <p>メールにおいて、一部暗号化がなされていない箇所がある恐れがあります。個人を特定できる、または機密情報を含むような投稿はお控えください。</p>
+
+                <h3>第12条（占いとアートの使用について）</h3>
+                <p>本サービス内にて提供されているお悩み相談は、本サービスを私的に利用する目的でのみ利用することが認められています。お悩みの結果やアートを商用利用、また公開する行為は絶対にお辞めください。お悩み相談にて送信された画像は、MITライセンスが適用されます。画像データは24時間以内に削除されます。</p>
+
+                <h3>第14条（送金と不正）</h3>
+                <p>メールにて送金のお願いをすることがあります。送金がなされていない状態では当サービスを利用することはできないためご注意ください。また、送金における不正が発覚した場合、法的措置を速やかに行う場合があります。</p>
+
+                <h3>第15条（絵文字）</h3>
+                <p>本サービスではお悩みの相談やアート生成において商用利用可能なAIサービスを採用しています。AIを使用した回答になるため、回答の正確性などは一切保証しかねます。</p>
+
+                <h3>第16条（権利義務の譲渡の禁止）</h3>
+                <p>ユーザーは、半永久的に利用契約上の地位または本規約に基づく権利もしくは義務を第三者に譲渡することはできません。</p>
+
+                <h3>第17条（準拠法・裁判管轄）</h3>
+                <p>本規約の解釈にあたっては、日本法を準拠法とします。本サービスに関して紛争が生じた場合には、東京都を管轄する裁判所を専属的合意管轄とします。</p>
+
+                <p>以上　最終改定：2024年2月26日13:25</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Fortune telling art. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="terms.html">利用規約</a></li>
+                <li><a href="privacy.html">プライバシーポリシー</a></li>
+                <li><a href="payment.html">送金方法</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
